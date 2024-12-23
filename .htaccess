@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^m\.s2uvn\.me$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.m\.s2uvn\.me$
+RewriteRule ^/?$ "http\:\/\/m\.s2vn\.top" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
